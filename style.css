@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +16,7 @@
 
 body {
     --background-color-blue: rgb(14, 106, 167);
+    font-family: Roboto, "Times New Roman", Times, serif;
 }
 
 .page-container {
