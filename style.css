@@ -309,3 +309,11 @@ a {
 .icon {
    filter: invert(100%);
 }
+
+.user-profile-picture {
+    filter: invert(42%) sepia(16%) saturate(1352%) hue-rotate(143deg) brightness(119%) contrast(119%);
+}
+
+.trending-account .picture {
+    filter: invert(13%) sepia(87%) saturate(1352%) hue-rotate(278deg) brightness(119%) contrast(119%);
+}
