@@ -317,3 +317,15 @@ a {
 .trending-account .picture {
     filter: invert(13%) sepia(87%) saturate(1352%) hue-rotate(278deg) brightness(119%) contrast(119%);
 }
+
+button:hover,
+.symbols img:hover,
+.search-bar img:hover,
+.user-info :first-child:hover,
+.user-info .user-profile-picture:hover,
+.user-info p:hover,
+.announcement:hover,
+.trending-account:hover,
+.project-content:hover {
+    cursor: pointer;
+}
